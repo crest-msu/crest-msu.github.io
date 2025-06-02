@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CREST MSU</title>
   <link rel="icon" href="xyz.ico" type="image/x-icon">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<!-- Font Awesome CSS -->
+  <!-- Bootstrap CSS (Updated to v5) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
-
-
 <body>
-  <header>
+  <!-- Header -->
+  <header style="background-color: #f0f0f0;">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -28,24 +24,13 @@
         </div>
         <div class="col-md-9">
           <h1>CREST – A Digital Twin Initiative Toward an NSF Science and Technology Center</h1>
-          
           <p class="lead"></p>
-
-          <p> <font color="#008542"> <a href= "https://msu.edu/">Michigan State University</a></font></p> 
-          <div class="social-media">
-            <a href="https://www.linkedin.com/in/yadupokhrel/" target="_blank" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
-            <a href="https://x.com/PokhrelYadu" target="_blank" class="btn btn-primary"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/yadupokhrel" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
-            <a href="mailto:ypokhrel@msu.edu" target="_blank" class="btn btn-primary"><i class="fas fa-envelope big-icon"></i></a>
-            <a href="https://scholar.google.com/citations?user=Oa7KPm4AAAAJ&hl=en" target="_blank" rel=noopener class="btn btn-primary"><i class="fas fa-graduation-cap big-icon"></i></a>
-            <!-- <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://twitter.com/amardeepttiwari target=_blank rel=noopener><i class="fab fa-twitter mr-1"></i>Follow</a> -->
-            <!-- <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://scholar.google.co.in/citations?user=Tw3-DoYAAAAJ&hl=en target=_blank rel=noopener><i class="fas fa-graduation-cap"></i>Google scholar</a> -->
-          </div>
         </div>
       </div>
     </div>
   </header>
 
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -54,70 +39,53 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="team.html">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="vision_mission.html">Vision and Mission</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="research_thrusts.html">Research thrusts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="news_media.html">News and media</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact us</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="vision_mission.html">Vision and Mission</a></li>
+          <li class="nav-item"><a class="nav-link" href="research_thrusts.html">Research Thrusts</a></li>
+          <li class="nav-item"><a class="nav-link" href="news_media.html">News and Media</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section id="about" style="margin-top: -15px;">
+  <!-- About Section -->
+  <section id="about" class="mt-4">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <!-- <h2>About</h2> -->
-          <h2><FONT COLOR=black>Synopsis</FONT></h2>
-          <p><strong>CREST</strong> is a pioneering initiative led by Michigan State University to develop a Digital Twin (DT) of the Earth system, with a focus on the Water-Energy-Food (WEF) Nexus and disaster risk management. Our vision is to build a scalable and transferable DT framework—grounded in convergent research across disciplines and faculty from six MSU colleges—that can be adapted to any region worldwide. The overarching goal is to transform how societies assess and manage WEF systems, while enhancing resilience to increasingly frequent and severe extreme events. In addition, we aim to leverage the DT framework to create spinoff tools for early warning and disaster risk reduction.
-          <br>
-          <br>
-          <h2><FONT COLOR=black>Background and Rationale</FONT></h2>
-        </p>Sustainably managing WEF in the face of intensified hydrologic extremes such as floods and droughts is not only a global challenge but also an increasingly urgent local priority, including in the Great Lakes region. While this region benefits from abundant freshwater, shifting rainfall patterns and growing climate extremes are already affecting communities and farmers. Meanwhile, other regions, such as the Colorado River basin, are facing acute water shortages that disrupt water supplies, agriculture, and energy production. Addressing these challenges requires collaboration that goes beyond traditional disciplinary silos.</p>
-        </p>Our initial focus will be the Asian Water Tower (AWT), a vast and vulnerable region supplying water to over 25% of the world’s population. With its complex geography, hydrology, and climate, the AWT serves as an ideal testbed for developing and piloting the DT framework. The region is experiencing intensified hydrologic extremes, rapid glacier melt, and mounting land and water use pressures, all of which have cascading effects on agriculture, energy, and the environment. These effects reverberate globally, shaping migration, trade, and environmental security, including in regions like the Great Lakes. Our rationale is simple: if MSU can develop the horsepower to digitally twin a system as complex as the AWT, we can demonstrate the capability to adapt the platform to other regions, including the Great Lakes.</p>
-        </p>CREST’s key innovation is the DT framework, an interactive, web-based platform that leverages the power of artificial intelligence and machine learning (AI/ML), integrating satellite data, process-based models (e.g., hydrology, agriculture, ecosystems), and socioeconomic information. This powerful tool will help decision-makers—from governments to community planners—visualize real-time risks, forecast future conditions, and evaluate “what-if” scenarios related to external shocks, infrastructure changes, or policy shifts. What sets our approach apart is the integration of both natural and human systems, bridging hydrology, agriculture, and engineering with policy and governance to ensure that proposed solutions are not only scientifically sound but also socially viable.</p>
-        </p>CREST also has strong commercialization potential, especially to develop early warning systems and decision-support tools that will be attractive to governments, NGOs, and the private sector. By attracting global attention to CREST, we will ensure that its power can be applied in Michigan and other regions facing WEF security challenges and complex environmental issues. CREST is a “high-risk, high-reward” platform for innovation, and a launchpad for substantial return on investment and global leadership in the long term.</p>
+          <h2 style="color:black;">Synopsis</h2>
+          <p><strong>CREST</strong> is a pioneering initiative led by Michigan State University to develop a Digital Twin (DT) of the Earth system, with a focus on the Water-Energy-Food (WEF) Nexus and disaster risk management. Our vision is to build a scalable and transferable DT framework—grounded in convergent research across disciplines and faculty from six MSU colleges—that can be adapted to any region worldwide. The overarching goal is to transform how societies assess and manage WEF systems, while enhancing resilience to increasingly frequent and severe extreme events. In addition, we aim to leverage the DT framework to create spinoff tools for early warning and disaster risk reduction.</p>
+
+          <h2 style="color:black;">Background and Rationale</h2>
+          </p>Sustainably managing WEF in the face of intensified hydrologic extremes such as floods and droughts is not only a global challenge but also an increasingly urgent local priority, including in the Great Lakes region. While this region benefits from abundant freshwater, shifting rainfall patterns and growing climate extremes are already affecting communities and farmers. Meanwhile, other regions, such as the Colorado River basin, are facing acute water shortages that disrupt water supplies, agriculture, and energy production. Addressing these challenges requires collaboration that goes beyond traditional disciplinary silos.</p>
+          </p>Our initial focus will be the Asian Water Tower (AWT), a vast and vulnerable region supplying water to over 25% of the world’s population. With its complex geography, hydrology, and climate, the AWT serves as an ideal testbed for developing and piloting the DT framework. The region is experiencing intensified hydrologic extremes, rapid glacier melt, and mounting land and water use pressures, all of which have cascading effects on agriculture, energy, and the environment. These effects reverberate globally, shaping migration, trade, and environmental security, including in regions like the Great Lakes. Our rationale is simple: if MSU can develop the horsepower to digitally twin a system as complex as the AWT, we can demonstrate the capability to adapt the platform to other regions, including the Great Lakes.</p>
+          </p>CREST’s key innovation is the DT framework, an interactive, web-based platform that leverages the power of artificial intelligence and machine learning (AI/ML), integrating satellite data, process-based models (e.g., hydrology, agriculture, ecosystems), and socioeconomic information. This powerful tool will help decision-makers—from governments to community planners—visualize real-time risks, forecast future conditions, and evaluate “what-if” scenarios related to external shocks, infrastructure changes, or policy shifts. What sets our approach apart is the integration of both natural and human systems, bridging hydrology, agriculture, and engineering with policy and governance to ensure that proposed solutions are not only scientifically sound but also socially viable.</p>
+          </p>CREST also has strong commercialization potential, especially to develop early warning systems and decision-support tools that will be attractive to governments, NGOs, and the private sector. By attracting global attention to CREST, we will ensure that its power can be applied in Michigan and other regions facing WEF security challenges and complex environmental issues. CREST is a “high-risk, high-reward” platform for innovation, and a launchpad for substantial return on investment and global leadership in the long term.</p>
+      
         </div>
       </div>
     </div>
   </section>
 
-  
-
-
-
-  <!-- </ul>
-  <!-- <p style="text-align:center"><a class="twitter-timeline" href="https://twitter.com/AmarDeepTTiwari" data-width="500" data-height="354">Tweets by AmarDeepTTiwari</a></p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><
-
-  <!-- Bootstrap and Font Awesome Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-
-
-<footer>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center p-3 mt-5">
     <div class="container">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <span class="nav-link">Copyright © 2025 | CREST</span>
-        </li>
-      </ul>
+      <div class="mb-2">
+        <a href="https://www.linkedin.com/in/yadupokhrel/" target="_blank" class="btn btn-primary btn-sm"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/PokhrelYadu" target="_blank" class="btn btn-primary btn-sm"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/yadupokhrel" target="_blank" class="btn btn-primary btn-sm"><i class="fab fa-github"></i></a>
+        <a href="mailto:ypokhrel@msu.edu" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-envelope"></i></a>
+        <a href="https://scholar.google.com/citations?user=Oa7KPm4AAAAJ&hl=en" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-graduation-cap"></i></a>
+      </div>
+      <div>
+        <small>Copyright © 2025 | CREST</small>
+      </div>
     </div>
-  </nav>
-</footer>
+  </footer>
 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
